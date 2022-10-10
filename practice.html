@@ -5,8 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/7c82deda0e.js" crossorigin="anonymous"></script>
+    <style>
+        .water{
+            position: relative;
+            top: -80px;
+        }
+        .ring{
+            position: relative;
+            z-index: 1;
+        }
+        .boy{
+            position: relative;
+            top: 60px;
+            z-index: 2;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 2px solid brown;
+            padding: 10px;
+        }
+        .fab{
+            font-size: 30px;
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    
+ <div class="elements">
+    <h1>This is a exercise page</h1>
+    <ol>
+        <h3>Inline Element</h3>
+        <li>Anchor Tag</li>
+        <li>Image Tag</li>
+        <li>Span Tag</li>
+        <li>Small Tag</li>
+        <li>Audio Tag</li>
+        <li>Video Tag</li>
+        <li>Button Tag</li>
+    </ol>
+    <ol>
+        <h3>Block Element</h3>
+        <li>OL Tag</li>
+        <li>Ul Tag</li>
+        <li>Li Tag</li>
+        <li>Div Tag</li>
+        <li>Section Tag</li>
+        <li>Paragraph Tag</li>
+        <li>Form Tag</li>
+    </ol>
+ </div>
+  <div class="container">
+    <div class="boy">
+        <img src="images/boy.svg" alt="">
+    </div>
+    <div class="ring">
+        <img src="images/ring.svg" alt="">
+    </div>
+    <div class="water">
+        <img src="images/water.svg" alt="">
+    </div>
+  </div>
+  <div class="table">
+    <table>
+        <caption>My Friends</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rahim</td>
+                <td>Dhaka</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>Karim</td>
+                <td>Khulna</td>
+                <td>20000</td>
+            </tr>
+            <tr>
+                <td>Abir</td>
+                <td>Shylet</td>
+                <td>30000</td>
+            </tr>
+            <tr>
+                <td>Salim</td>
+                <td>Chittagong</td>
+                <td>40000</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  <section>
+    <h1>Semantic Tag</h1>
+    <p>A semantic element clearly describes its meaning to both the browser and the developer.
+
+        Examples of non-semantic elements: div and span - Tells nothing about its content.
+        
+        Examples of semantic elements: form, table, and article - Clearly defines its content.
+        
+        </p>
+        <ol>
+            <li>Header</li>
+            <li>Footer</li>
+            <li>Main</li>
+            <li>Article</li>
+            <li>Nav</li>
+        </ol>
+  </section>
+  <section>
+    <P>Join Us : <a target="_blank" href="https://www.youtube.com/c/ProgrammingHeroCommunity"><i class="fab fa-youtube"></i></a></P>
+    <div class="youtube">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IfZZjTdn1XM?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+    </div>
+  </section>
 </body>
 </html>
